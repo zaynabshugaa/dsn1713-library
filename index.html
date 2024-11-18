@@ -4,53 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Library Integration</title>
+    <!-- Linking Animate.css for animations -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Linking custom CSS for page styling -->
     <link rel="stylesheet" href="stylesheet/main.css">
 </head>
 <body>
 
     <!-- Libraries used:
-     1. Animate.css: https://animate.style/
-     2. AOS (Animate On Scroll): https://michalsnik.github.io/aos/
+         1. Animate.css: https://animate.style/
+         2. AOS (Animate On Scroll): https://michalsnik.github.io/aos/
     -->
 
+    <!-- Header Section -->
     <header>
+        <!-- Applying Animate.css fadeInDown animation to the main heading -->
         <h1 class="animate__animated animate__fadeInDown">Welcome to My Page</h1>
+        <!-- Applying Animate.css fadeInUp animation to the subheading -->
         <p class="animate__animated animate__fadeInUp">This page showcases a CSS/JS library integration.</p>
     </header>
-    <!-- Ive added blah blah -->
 
+    <!-- Main Content Section -->
     <section>
-        <!-- Applying AOS fade-up animation for scroll effect, bounceIn and infinite for the text -->
+        <!-- Section 1: AOS fade-up animation on scroll and Animate.css bounceIn and pulse animations -->
         <div class="box" data-aos="fade-up">
+            <!-- Animate.css bounceIn animation for the heading -->
             <h2 class="animate__animated animate__bounceIn">Section 1</h2>
+            <!-- Animate.css infinite pulse animation for hover effect on the paragraph -->
             <p class="animate__animated animate__pulse animate__infinite">Hover for pulse animation!</p>
         </div>
 
+        <!-- Section 2: AOS zoom-in animation on scroll and Animate.css zoomInDown and flipInX animations -->
         <div class="box" data-aos="zoom-in">
+            <!-- Animate.css zoomInDown animation for the heading -->
             <h2 class="animate__animated animate__zoomInDown">Section 2</h2>
+            <!-- Animate.css flipInX animation for the paragraph -->
             <p class="animate__animated animate__flipInX">Animated FlipInX!</p>
         </div>
-            <!-- Ive added blah blah -->
 
+        <!-- Section 3: AOS slide-left animation on scroll and Animate.css lightSpeedInRight animation -->
         <div class="box" data-aos="slide-left">
+            <!-- Animate.css lightSpeedInRight animation for the heading -->
             <h2 class="animate__animated animate__lightSpeedInRight">Section 3</h2>
+            <!-- Placeholder for further customizations or experiments -->
             <p>Experiment with another feature or function.</p>
         </div>
-        <!-- Ive added blah blah -->
 
+        <!-- Section 4: AOS flip-right animation on scroll and Animate.css rubberBand and shakeX animations -->
         <div class="box" data-aos="flip-right">
+            <!-- Animate.css rubberBand animation for the heading -->
             <h2 class="animate__animated animate__rubberBand">Section 4</h2>
+            <!-- Animate.css shakeX animation for the paragraph -->
             <p class="animate__animated animate__shakeX">ShakeX Animation Example!</p>
         </div>
-
     </section>
 
+    <!-- Footer Section -->
     <footer style="text-align: center; padding: 1rem; background: #333; color: white;">
+        <!-- Animate.css jello animation for footer text -->
         <p class="animate__animated animate__jello">DSN1713 Library Integration Exercise</p>
     </footer>
-        <!-- Ive added blah blah -->
-
 
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
     <script>
