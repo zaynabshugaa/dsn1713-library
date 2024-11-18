@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="stylesheet/main.css">
 </head>
 <body>
+
+    <!-- Libraries used:
+     1. Animate.css: https://animate.style/
+     2. AOS (Animate On Scroll): https://michalsnik.github.io/aos/
+    -->
+
     <header>
         <h1 class="animate__animated animate__fadeInDown">Welcome to My Page</h1>
         <p class="animate__animated animate__fadeInUp">This page showcases a CSS/JS library integration.</p>
@@ -15,15 +21,15 @@
     <!-- Ive added blah blah -->
 
     <section>
+        <!-- Applying AOS fade-up animation for scroll effect, bounceIn and infinite for the text -->
         <div class="box" data-aos="fade-up">
             <h2 class="animate__animated animate__bounceIn">Section 1</h2>
-            <p>Animated BounceIn!</p>
+            <p class="animate__animated animate__pulse animate__infinite">Hover for pulse animation!</p>
         </div>
-            <!-- Ive added blah blah -->
 
         <div class="box" data-aos="zoom-in">
             <h2 class="animate__animated animate__zoomInDown">Section 2</h2>
-            <p>Animate ZoomInDown!</p>
+            <p class="animate__animated animate__flipInX">Animated FlipInX!</p>
         </div>
             <!-- Ive added blah blah -->
 
@@ -32,6 +38,11 @@
             <p>Experiment with another feature or function.</p>
         </div>
         <!-- Ive added blah blah -->
+
+        <div class="box" data-aos="flip-right">
+            <h2 class="animate__animated animate__rubberBand">Section 4</h2>
+            <p class="animate__animated animate__shakeX">ShakeX Animation Example!</p>
+        </div>
 
     </section>
 
